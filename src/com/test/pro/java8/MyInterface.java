@@ -12,9 +12,6 @@ public interface MyInterface {
 	 */
 	public abstract void test2();
 	
-	
-//	static void test3();
-	
 	/**
 	 * 只能够被接口调用到
 	 * 不能被子接口继承
