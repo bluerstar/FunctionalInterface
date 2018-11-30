@@ -1,4 +1,4 @@
-package com.jdk8.generic;
+package com.jdk5.generic;
 
 public class GenericTest {
 

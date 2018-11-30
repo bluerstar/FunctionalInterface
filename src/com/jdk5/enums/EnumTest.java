@@ -1,4 +1,4 @@
-package com.jdk8.enums;
+package com.jdk5.enums;
 
 public class EnumTest {
 
@@ -9,6 +9,8 @@ public class EnumTest {
 		System.out.println(Week.MONDAY.name());
 		System.out.println(Week.MONDAY.getCode());
 		System.out.println(Week.MONDAY.getDesc());
+		System.out.println(Week.MONDAY.ordinal());
+		Week.MONDAY.print();
 	}
 
 }

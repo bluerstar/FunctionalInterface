@@ -1,4 +1,4 @@
-package com.jdk8.generic;
+package com.jdk5.generic;
 
 // T¡¢E¡¢K¡¢V
 public class Box<E> {
