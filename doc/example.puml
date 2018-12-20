@@ -1,0 +1,18 @@
+@startuml
+title Ó°Æ¬×âÁÞ
+
+class Movie {
+	-int priceCode
+}
+
+class Rental {
+	-int daysRented
+}
+
+class Customer {
+	+void statement()
+}
+
+Rental "*" <-- "1" Movie
+Rental "*" --> "1" Customer
+@enduml
