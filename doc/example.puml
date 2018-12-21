@@ -8,6 +8,7 @@ class Movie {
 class Rental {
 	-int daysRented
 	+double getCharge()
+	+getFrequentRenterPoints()
 }
 
 class Customer {
