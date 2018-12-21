@@ -3,16 +3,20 @@ title Ó°Æ¬×âÁÞ
 
 class Movie {
 	-int priceCode
+	+double getCharge(int daysRented)
+	+int getFrequentRenterPoints(int daysRented)
 }
 
 class Rental {
 	-int daysRented
 	+double getCharge()
-	+getFrequentRenterPoints()
+	+int getFrequentRenterPoints()
 }
 
 class Customer {
 	+void statement()
+	-double getCharge()
+	-int getTotalFrequentRenterPoints()
 }
 
 Rental "*" <-- "1" Movie
